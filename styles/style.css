@@ -67,6 +67,9 @@
 
 .logo_place_header {
   background: url('../images/logo_place_header.svg');
+  z-index: 5;
+  width: 183px;
+  height: 32px;
 }
 
 .header__title {
@@ -76,12 +79,6 @@
   line-height: 96px;
   font-weight: bold;
   z-index: 4;
-}
-
-.logo_place_header {
-  z-index: 5;
-  width: 183px;
-  height: 32px;
 }
 
 .header__subtitle {
@@ -115,6 +112,7 @@
   position: absolute;
   top: 64px;
   right: 0;
+  /* background-size: cover; */
 }
 
 .description {
@@ -135,6 +133,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-collumns__main-text {
@@ -149,7 +148,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 30px;
+  margin: 0 0 30px 0;
 }
 
 .two-collumns__paragraph:last-of-type {
