@@ -16,22 +16,26 @@
   max-height: 756px;
   position: relative;
   display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 183px;
+  z-index: 5;
 }
 
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  width: 183px;
   height: 32px;
   background: url('../images/logo_place_header.svg');
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 5;
 }
 
 .header__title {
-  margin: auto 0 auto 64px;
+  margin: 0 0 0 64px;
   width: 730px;
   font-size: 102px;
   line-height: 96px;
@@ -41,6 +45,8 @@
 
 .header__subtitle {
   position: absolute;
+  margin: 0;
+  padding: 0;
   left: 64px;
   bottom: 30px;
   width: 388px;
@@ -65,10 +71,10 @@
 }
 
 .header__square-pic {
+  position: absolute;
   background-color: #2f80ed;
   width: 568px;
   height: 568px;
-  position: absolute;
   top: 64px;
   right: 0;
 }
@@ -204,6 +210,7 @@
   position: absolute;
   top: 50%;
   right: 48px;
+  text-decoration: none;
   color: #2f80ed;
   line-height: 51px;
   font-size: 36px;
@@ -281,7 +288,6 @@
 .logo_place_footer {
   height: 35px;
   background: url('../images/logo_place_footer.svg');
-  width: 183px;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -316,4 +322,6 @@
 
 .footer__social-icon {
   margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
