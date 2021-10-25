@@ -29,18 +29,26 @@
 @import url('../blocks/cards/__title/cards__title.css');
 @import url('../blocks/cards/__description/cards__description.css');
 
-/* digits */
-@import url('../blocks/digits/digits.css');
-@import url('../blocks/table/table.css');
-@import url('../blocks/table/__cell/table__cell.css');
-@import url('../blocks/table/__heading/table__heading.css');
-@import url('../blocks/table/__text/table__text.css');
+/* video */
+@import url('../blocks/video/video.css');
+@import url('../blocks/video/__frames/video__frames.css');
+@import url('../blocks/video/__iframe/video__iframe.css');
+
+/* oakley */
+@import url('../blocks/oakley/oakley.css');
 
 /* feynman */
 @import url('../blocks/feynman/feynman.css');
 @import url('../blocks/feynman/__title/feynman__title.css');
 @import url('../blocks/feynman/__subtitle/feynman__subtitle.css');
 @import url('../blocks/feynman/__link/feynman__link.css');
+
+/* digits */
+@import url('../blocks/digits/digits.css');
+@import url('../blocks/table/table.css');
+@import url('../blocks/table/__cell/table__cell.css');
+@import url('../blocks/table/__heading/table__heading.css');
+@import url('../blocks/table/__text/table__text.css');
 
 /* kaufman */
 @import url('../blocks/kaufman/kaufman.css');
